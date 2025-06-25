@@ -25,7 +25,7 @@ const Index = () => {
           <div className="flex-1 min-w-80">
             <h1 className="text-5xl font-bold mb-4">1Card®</h1>
             <p className="text-lg mb-8 max-w-lg">
-              Earn <strong>3× miles on flights</strong>, <strong>2× on hotels & dining</strong>, and collect a <strong>50,000-mile intro bonus</strong>. Zero foreign fees—ever.
+              Earn <strong>3× miles on flights</strong>, <strong>2× on hotels & dining</strong>, and collect a <strong>50,000-mile intro bonus</strong>.
             </p>
             <a className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-3 rounded-full font-semibold transition-colors inline-block" href="#apply">Apply Now</a>
           </div>
@@ -35,9 +35,6 @@ const Index = () => {
               alt="1Card Blue Rewards" 
               className="w-full rounded-2xl shadow-2xl"
             />
-            <span className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 bg-yellow-400 px-4 py-2 rounded-full font-semibold text-sm text-black">
-              No FX Fees
-            </span>
           </div>
         </div>
       </section>
@@ -73,14 +70,14 @@ const Index = () => {
           
           {/* Blue Rewards */}
           <article className="flex-shrink-0 w-72 flex flex-col bg-white border border-gray-200 rounded-2xl shadow-lg hover:-translate-y-2 transition-transform snap-start">
-            <div className="relative p-7 bg-gradient-to-br from-blue-600 to-blue-700 text-white rounded-t-2xl border-b border-white/25">
+            <div className="relative p-7 bg-gradient-to-br from-blue-600 to-blue-700 text-black rounded-t-2xl border-b border-white/25">
               <span className="absolute top-3 right-3 bg-gray-900 text-white text-xs px-2 py-1 rounded-full font-semibold">Most Popular</span>
               <img 
                 src="/lovable-uploads/45366fdd-5daf-47d3-9120-8db579466594.png" 
                 alt="Blue Rewards Card" 
-                className="w-20 h-12 object-contain mb-5"
+                className="w-32 h-20 object-contain mb-5"
               />
-              <h5 className="text-lg font-semibold">Blue Rewards</h5>
+              <h5 className="text-lg font-semibold text-black">Blue Rewards</h5>
             </div>
             <h4 className="text-xl font-semibold mx-6 mt-6 mb-2">1Card® Blue Rewards</h4>
             <p className="text-gray-600 mx-6 mb-5">Double cash back on everyday spend.</p>
@@ -105,14 +102,14 @@ const Index = () => {
 
           {/* Platinum Cashback */}
           <article className="flex-shrink-0 w-72 flex flex-col bg-white border border-gray-200 rounded-2xl shadow-lg hover:-translate-y-2 transition-transform snap-start">
-            <div className="relative p-7 bg-gradient-to-br from-gray-600 to-gray-800 text-white rounded-t-2xl border-b border-white/25">
+            <div className="relative p-7 bg-gradient-to-br from-gray-600 to-gray-800 text-black rounded-t-2xl border-b border-white/25">
               <span className="absolute top-3 right-3 bg-gray-900 text-white text-xs px-2 py-1 rounded-full font-semibold">Premium Choice</span>
               <img 
                 src="/lovable-uploads/bfe85254-cc25-4511-a3d4-f9c29ac6c25a.png" 
                 alt="Platinum Cashback Card" 
-                className="w-20 h-12 object-contain mb-5"
+                className="w-32 h-20 object-contain mb-5"
               />
-              <h5 className="text-lg font-semibold">Platinum Cashback</h5>
+              <h5 className="text-lg font-semibold text-black">Platinum Cashback</h5>
             </div>
             <h4 className="text-xl font-semibold mx-6 mt-6 mb-2">1Card® Platinum Cashback</h4>
             <p className="text-gray-600 mx-6 mb-5">2% cash back + premium travel.</p>
@@ -137,14 +134,14 @@ const Index = () => {
 
           {/* Student Flex */}
           <article className="flex-shrink-0 w-72 flex flex-col bg-white border border-gray-200 rounded-2xl shadow-lg hover:-translate-y-2 transition-transform snap-start">
-            <div className="relative p-7 bg-gradient-to-br from-green-600 to-green-800 text-white rounded-t-2xl border-b border-white/25">
+            <div className="relative p-7 bg-gradient-to-br from-green-600 to-green-800 text-black rounded-t-2xl border-b border-white/25">
               <span className="absolute top-3 right-3 bg-gray-900 text-white text-xs px-2 py-1 rounded-full font-semibold">Student Favorite</span>
               <img 
                 src="/lovable-uploads/7b6ac3ff-10aa-441e-bebd-938af18c5425.png" 
                 alt="Student Flex Card" 
-                className="w-20 h-12 object-contain mb-5"
+                className="w-32 h-20 object-contain mb-5"
               />
-              <h5 className="text-lg font-semibold">Student Flex</h5>
+              <h5 className="text-lg font-semibold text-black">Student Flex</h5>
             </div>
             <h4 className="text-xl font-semibold mx-6 mt-6 mb-2">1Card® Student Flex</h4>
             <p className="text-gray-600 mx-6 mb-5">Build credit and earn rewards.</p>
@@ -169,14 +166,14 @@ const Index = () => {
 
           {/* Travel Elite */}
           <article className="flex-shrink-0 w-72 flex flex-col bg-white border border-gray-200 rounded-2xl shadow-lg hover:-translate-y-2 transition-transform snap-start">
-            <div className="relative p-7 bg-gradient-to-br from-orange-600 to-orange-800 text-white rounded-t-2xl border-b border-white/25">
+            <div className="relative p-7 bg-gradient-to-br from-orange-600 to-orange-800 text-black rounded-t-2xl border-b border-white/25">
               <span className="absolute top-3 right-3 bg-gray-900 text-white text-xs px-2 py-1 rounded-full font-semibold">Travel Perks</span>
               <img 
                 src="/lovable-uploads/c400ce76-d862-43d0-b72e-c82041761415.png" 
                 alt="Travel Elite Card" 
-                className="w-20 h-12 object-contain mb-5"
+                className="w-32 h-20 object-contain mb-5"
               />
-              <h5 className="text-lg font-semibold">Travel Elite</h5>
+              <h5 className="text-lg font-semibold text-black">Travel Elite</h5>
             </div>
             <h4 className="text-xl font-semibold mx-6 mt-6 mb-2">1Card® Travel Elite</h4>
             <p className="text-gray-600 mx-6 mb-5">Premium points & lounge access.</p>
@@ -202,37 +199,37 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Travel Privileges & Protections */}
+      {/* Perks & Privileges */}
       <section id="privileges" className="bg-blue-50 py-16">
         <div className="max-w-7xl mx-auto px-5">
-          <h2 className="text-4xl font-bold text-center mb-10">Travel Privileges & Protections</h2>
+          <h2 className="text-4xl font-bold text-center mb-10">Perks & Privileges</h2>
           <div className="space-y-6">
             <div className="flex gap-5">
-              <i className="fas fa-passport text-2xl text-blue-700 mt-1"></i>
+              <i className="fas fa-percent text-2xl text-blue-700 mt-1"></i>
               <div>
-                <h5 className="text-lg font-semibold mb-1">$100 Global Entry / TSA Pre✓® Credit</h5>
-                <p className="text-gray-600">Skip airport queues every 4 years—credit covers the cost.</p>
+                <h5 className="text-lg font-semibold mb-1">Cashback Rewards</h5>
+                <p className="text-gray-600">Earn rewards on every purchase with competitive rates.</p>
               </div>
             </div>
             <div className="flex gap-5">
-              <i className="fas fa-chair text-2xl text-blue-700 mt-1"></i>
+              <i className="fas fa-shield-alt text-2xl text-blue-700 mt-1"></i>
               <div>
-                <h5 className="text-lg font-semibold mb-1">Priority Pass™ Lounge Access</h5>
-                <p className="text-gray-600">10 complimentary visits each year keep you refreshed.</p>
+                <h5 className="text-lg font-semibold mb-1">Fraud Protection</h5>
+                <p className="text-gray-600">Advanced security features to keep your accounts safe.</p>
               </div>
             </div>
             <div className="flex gap-5">
-              <i className="fas fa-plane-circle-check text-2xl text-blue-700 mt-1"></i>
+              <i className="fas fa-mobile-alt text-2xl text-blue-700 mt-1"></i>
               <div>
-                <h5 className="text-lg font-semibold mb-1">Trip Delay & Cancellation</h5>
-                <p className="text-gray-600">Up to $500 for delays and $5,000 for cancellations.</p>
+                <h5 className="text-lg font-semibold mb-1">Mobile Banking</h5>
+                <p className="text-gray-600">Manage your account anywhere with our mobile app.</p>
               </div>
             </div>
             <div className="flex gap-5">
-              <i className="fas fa-shield-halved text-2xl text-blue-700 mt-1"></i>
+              <i className="fas fa-headset text-2xl text-blue-700 mt-1"></i>
               <div>
-                <h5 className="text-lg font-semibold mb-1">Purchase & Phone Protection</h5>
-                <p className="text-gray-600">Covers new items up to $10,000/yr; phones up to $800.</p>
+                <h5 className="text-lg font-semibold mb-1">24/7 Customer Support</h5>
+                <p className="text-gray-600">Get help whenever you need it with round-the-clock support.</p>
               </div>
             </div>
           </div>
@@ -244,17 +241,17 @@ const Index = () => {
         <h2 className="text-4xl font-bold text-center mb-10">Fast 3-Step Application</h2>
         <div className="grid md:grid-cols-3 gap-6">
           <div className="bg-white p-6 rounded-2xl text-center shadow-lg">
-            <span className="inline-block w-12 h-12 bg-blue-700 text-white rounded-full leading-12 font-semibold mb-3">1</span>
+            <span className="inline-flex items-center justify-center w-12 h-12 bg-blue-700 text-white rounded-full font-semibold mb-3">1</span>
             <h4 className="text-xl font-semibold mb-2">Apply Online</h4>
             <p className="text-gray-600">Secure 5-minute form; most get a decision instantly.</p>
           </div>
           <div className="bg-white p-6 rounded-2xl text-center shadow-lg">
-            <span className="inline-block w-12 h-12 bg-blue-700 text-white rounded-full leading-12 font-semibold mb-3">2</span>
+            <span className="inline-flex items-center justify-center w-12 h-12 bg-blue-700 text-white rounded-full font-semibold mb-3">2</span>
             <h4 className="text-xl font-semibold mb-2">Instant 1Card Number</h4>
             <p className="text-gray-600">Add your new card to Apple Pay® or Google Pay™ right away.</p>
           </div>
           <div className="bg-white p-6 rounded-2xl text-center shadow-lg">
-            <span className="inline-block w-12 h-12 bg-blue-700 text-white rounded-full leading-12 font-semibold mb-3">3</span>
+            <span className="inline-flex items-center justify-center w-12 h-12 bg-blue-700 text-white rounded-full font-semibold mb-3">3</span>
             <h4 className="text-xl font-semibold mb-2">Start Earning</h4>
             <p className="text-gray-600">Begin racking up miles on flights, dining, and more.</p>
           </div>
@@ -290,7 +287,7 @@ const Index = () => {
               <tr className="border-b border-gray-300">
                 <th className="bg-blue-50 p-4 text-left font-semibold">Foreign Fees</th>
                 <td className="p-4"><strong>None</strong></td>
-              </tr>
+              </div>
             </tbody>
           </table>
         </div>
