@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 
 const Index = () => {
@@ -70,14 +71,13 @@ const Index = () => {
           
           {/* Blue Rewards */}
           <article className="flex-shrink-0 w-72 flex flex-col bg-white border border-gray-200 rounded-2xl shadow-lg hover:-translate-y-2 transition-transform snap-start">
-            <div className="relative p-7 bg-gradient-to-br from-blue-600 to-blue-700 text-black rounded-t-2xl border-b border-white/25">
+            <div className="relative p-7 bg-gradient-to-br from-blue-600 to-blue-700 rounded-t-2xl border-b border-white/25">
               <span className="absolute top-3 right-3 bg-gray-900 text-white text-xs px-2 py-1 rounded-full font-semibold">Most Popular</span>
               <img 
                 src="/lovable-uploads/45366fdd-5daf-47d3-9120-8db579466594.png" 
                 alt="Blue Rewards Card" 
-                className="w-40 h-24 object-contain mb-5"
+                className="w-full h-32 object-contain"
               />
-              <h5 className="text-lg font-semibold text-black">Blue Rewards</h5>
             </div>
             <h4 className="text-xl font-semibold mx-6 mt-6 mb-2">1Card® Blue Rewards</h4>
             <p className="text-gray-600 mx-6 mb-5">Double cash back on everyday spend.</p>
@@ -102,14 +102,13 @@ const Index = () => {
 
           {/* Platinum Cashback */}
           <article className="flex-shrink-0 w-72 flex flex-col bg-white border border-gray-200 rounded-2xl shadow-lg hover:-translate-y-2 transition-transform snap-start">
-            <div className="relative p-7 bg-gradient-to-br from-gray-600 to-gray-800 text-black rounded-t-2xl border-b border-white/25">
+            <div className="relative p-7 bg-gradient-to-br from-gray-600 to-gray-800 rounded-t-2xl border-b border-white/25">
               <span className="absolute top-3 right-3 bg-gray-900 text-white text-xs px-2 py-1 rounded-full font-semibold">Premium Choice</span>
               <img 
                 src="/lovable-uploads/bfe85254-cc25-4511-a3d4-f9c29ac6c25a.png" 
                 alt="Platinum Cashback Card" 
-                className="w-40 h-24 object-contain mb-5"
+                className="w-full h-32 object-contain"
               />
-              <h5 className="text-lg font-semibold text-black">Platinum Cashback</h5>
             </div>
             <h4 className="text-xl font-semibold mx-6 mt-6 mb-2">1Card® Platinum Cashback</h4>
             <p className="text-gray-600 mx-6 mb-5">2% cash back + premium travel.</p>
@@ -134,14 +133,13 @@ const Index = () => {
 
           {/* Student Flex */}
           <article className="flex-shrink-0 w-72 flex flex-col bg-white border border-gray-200 rounded-2xl shadow-lg hover:-translate-y-2 transition-transform snap-start">
-            <div className="relative p-7 bg-gradient-to-br from-green-600 to-green-800 text-black rounded-t-2xl border-b border-white/25">
+            <div className="relative p-7 bg-gradient-to-br from-green-600 to-green-800 rounded-t-2xl border-b border-white/25">
               <span className="absolute top-3 right-3 bg-gray-900 text-white text-xs px-2 py-1 rounded-full font-semibold">Student Favorite</span>
               <img 
                 src="/lovable-uploads/7b6ac3ff-10aa-441e-bebd-938af18c5425.png" 
                 alt="Student Flex Card" 
-                className="w-40 h-24 object-contain mb-5"
+                className="w-full h-32 object-contain"
               />
-              <h5 className="text-lg font-semibold text-black">Student Flex</h5>
             </div>
             <h4 className="text-xl font-semibold mx-6 mt-6 mb-2">1Card® Student Flex</h4>
             <p className="text-gray-600 mx-6 mb-5">Build credit and earn rewards.</p>
@@ -166,14 +164,13 @@ const Index = () => {
 
           {/* Travel Elite */}
           <article className="flex-shrink-0 w-72 flex flex-col bg-white border border-gray-200 rounded-2xl shadow-lg hover:-translate-y-2 transition-transform snap-start">
-            <div className="relative p-7 bg-gradient-to-br from-orange-600 to-orange-800 text-black rounded-t-2xl border-b border-white/25">
+            <div className="relative p-7 bg-gradient-to-br from-orange-600 to-orange-800 rounded-t-2xl border-b border-white/25">
               <span className="absolute top-3 right-3 bg-gray-900 text-white text-xs px-2 py-1 rounded-full font-semibold">Travel Perks</span>
               <img 
                 src="/lovable-uploads/c400ce76-d862-43d0-b72e-c82041761415.png" 
                 alt="Travel Elite Card" 
-                className="w-40 h-24 object-contain mb-5"
+                className="w-full h-32 object-contain"
               />
-              <h5 className="text-lg font-semibold text-black">Travel Elite</h5>
             </div>
             <h4 className="text-xl font-semibold mx-6 mt-6 mb-2">1Card® Travel Elite</h4>
             <p className="text-gray-600 mx-6 mb-5">Premium points & lounge access.</p>
@@ -203,33 +200,37 @@ const Index = () => {
       <section id="privileges" className="bg-blue-50 py-16">
         <div className="max-w-7xl mx-auto px-5">
           <h2 className="text-4xl font-bold text-center mb-10">Perks & Privileges</h2>
-          <div className="space-y-6">
-            <div className="flex gap-5">
-              <i className="fas fa-percent text-2xl text-blue-700 mt-1"></i>
-              <div>
-                <h5 className="text-lg font-semibold mb-1">Cashback Rewards</h5>
-                <p className="text-gray-600">Earn rewards on every purchase with competitive rates.</p>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="space-y-6">
+              <div className="flex gap-5">
+                <i className="fas fa-percent text-2xl text-blue-700 mt-1"></i>
+                <div>
+                  <h5 className="text-lg font-semibold mb-1">Cashback Rewards</h5>
+                  <p className="text-gray-600">Earn rewards on every purchase with competitive rates.</p>
+                </div>
+              </div>
+              <div className="flex gap-5">
+                <i className="fas fa-shield-alt text-2xl text-blue-700 mt-1"></i>
+                <div>
+                  <h5 className="text-lg font-semibold mb-1">Fraud Protection</h5>
+                  <p className="text-gray-600">Advanced security features to keep your accounts safe.</p>
+                </div>
               </div>
             </div>
-            <div className="flex gap-5">
-              <i className="fas fa-shield-alt text-2xl text-blue-700 mt-1"></i>
-              <div>
-                <h5 className="text-lg font-semibold mb-1">Fraud Protection</h5>
-                <p className="text-gray-600">Advanced security features to keep your accounts safe.</p>
+            <div className="space-y-6">
+              <div className="flex gap-5">
+                <i className="fas fa-mobile-alt text-2xl text-blue-700 mt-1"></i>
+                <div>
+                  <h5 className="text-lg font-semibold mb-1">Mobile Banking</h5>
+                  <p className="text-gray-600">Manage your account anywhere with our mobile app.</p>
+                </div>
               </div>
-            </div>
-            <div className="flex gap-5">
-              <i className="fas fa-mobile-alt text-2xl text-blue-700 mt-1"></i>
-              <div>
-                <h5 className="text-lg font-semibold mb-1">Mobile Banking</h5>
-                <p className="text-gray-600">Manage your account anywhere with our mobile app.</p>
-              </div>
-            </div>
-            <div className="flex gap-5">
-              <i className="fas fa-headset text-2xl text-blue-700 mt-1"></i>
-              <div>
-                <h5 className="text-lg font-semibold mb-1">24/7 Customer Support</h5>
-                <p className="text-gray-600">Get help whenever you need it with round-the-clock support.</p>
+              <div className="flex gap-5">
+                <i className="fas fa-headset text-2xl text-blue-700 mt-1"></i>
+                <div>
+                  <h5 className="text-lg font-semibold mb-1">24/7 Customer Support</h5>
+                  <p className="text-gray-600">Get help whenever you need it with round-the-clock support.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -367,3 +368,4 @@ const Index = () => {
 };
 
 export default Index;
+
