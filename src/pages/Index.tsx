@@ -75,7 +75,7 @@ const Index = () => {
               <img 
                 src="/lovable-uploads/45366fdd-5daf-47d3-9120-8db579466594.png" 
                 alt="Blue Rewards Card" 
-                className="w-32 h-20 object-contain mb-5"
+                className="w-40 h-24 object-contain mb-5"
               />
               <h5 className="text-lg font-semibold text-black">Blue Rewards</h5>
             </div>
@@ -107,7 +107,7 @@ const Index = () => {
               <img 
                 src="/lovable-uploads/bfe85254-cc25-4511-a3d4-f9c29ac6c25a.png" 
                 alt="Platinum Cashback Card" 
-                className="w-32 h-20 object-contain mb-5"
+                className="w-40 h-24 object-contain mb-5"
               />
               <h5 className="text-lg font-semibold text-black">Platinum Cashback</h5>
             </div>
@@ -139,7 +139,7 @@ const Index = () => {
               <img 
                 src="/lovable-uploads/7b6ac3ff-10aa-441e-bebd-938af18c5425.png" 
                 alt="Student Flex Card" 
-                className="w-32 h-20 object-contain mb-5"
+                className="w-40 h-24 object-contain mb-5"
               />
               <h5 className="text-lg font-semibold text-black">Student Flex</h5>
             </div>
@@ -171,7 +171,7 @@ const Index = () => {
               <img 
                 src="/lovable-uploads/c400ce76-d862-43d0-b72e-c82041761415.png" 
                 alt="Travel Elite Card" 
-                className="w-32 h-20 object-contain mb-5"
+                className="w-40 h-24 object-contain mb-5"
               />
               <h5 className="text-lg font-semibold text-black">Travel Elite</h5>
             </div>
@@ -241,17 +241,17 @@ const Index = () => {
         <h2 className="text-4xl font-bold text-center mb-10">Fast 3-Step Application</h2>
         <div className="grid md:grid-cols-3 gap-6">
           <div className="bg-white p-6 rounded-2xl text-center shadow-lg">
-            <span className="inline-flex items-center justify-center w-12 h-12 bg-blue-700 text-white rounded-full font-semibold mb-3">1</span>
+            <span className="inline-flex items-center justify-center w-12 h-12 bg-blue-700 text-white rounded-full font-semibold mb-3 text-lg leading-none">1</span>
             <h4 className="text-xl font-semibold mb-2">Apply Online</h4>
             <p className="text-gray-600">Secure 5-minute form; most get a decision instantly.</p>
           </div>
           <div className="bg-white p-6 rounded-2xl text-center shadow-lg">
-            <span className="inline-flex items-center justify-center w-12 h-12 bg-blue-700 text-white rounded-full font-semibold mb-3">2</span>
+            <span className="inline-flex items-center justify-center w-12 h-12 bg-blue-700 text-white rounded-full font-semibold mb-3 text-lg leading-none">2</span>
             <h4 className="text-xl font-semibold mb-2">Instant 1Card Number</h4>
             <p className="text-gray-600">Add your new card to Apple Pay® or Google Pay™ right away.</p>
           </div>
           <div className="bg-white p-6 rounded-2xl text-center shadow-lg">
-            <span className="inline-flex items-center justify-center w-12 h-12 bg-blue-700 text-white rounded-full font-semibold mb-3">3</span>
+            <span className="inline-flex items-center justify-center w-12 h-12 bg-blue-700 text-white rounded-full font-semibold mb-3 text-lg leading-none">3</span>
             <h4 className="text-xl font-semibold mb-2">Start Earning</h4>
             <p className="text-gray-600">Begin racking up miles on flights, dining, and more.</p>
           </div>
@@ -287,7 +287,7 @@ const Index = () => {
               <tr className="border-b border-gray-300">
                 <th className="bg-blue-50 p-4 text-left font-semibold">Foreign Fees</th>
                 <td className="p-4"><strong>None</strong></td>
-              </div>
+              </tr>
             </tbody>
           </table>
         </div>
